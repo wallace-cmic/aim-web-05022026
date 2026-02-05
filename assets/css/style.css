@@ -82,7 +82,7 @@ body {
 /* Hero Section */
 .hero-section {
   background: linear-gradient(rgba(0, 26, 51, 0.7), rgba(0, 26, 51, 0.7)),
-    url('/img/top-banner.jpg') no-repeat center center;
+    url('../../img/top-banner.jpg') no-repeat center center;
   background-size: cover;
   height: 600px;
   display: flex;
@@ -176,7 +176,7 @@ body {
   z-index: 1;
 }
 .arc-bg {
-  background: url('/img/services-bg.jpg') no-repeat center center;
+  background: url('./img/services-bg.jpg') no-repeat center center;
   /* opacity: 0.13; */
   position: absolute;
   inset: 0;
