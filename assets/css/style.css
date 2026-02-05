@@ -176,7 +176,7 @@ body {
   z-index: 1;
 }
 .arc-bg {
-  background: url('./img/services-bg.jpg') no-repeat center center;
+  background: url('../../img/services-bg.jpg') no-repeat center center;
   /* opacity: 0.13; */
   position: absolute;
   inset: 0;
