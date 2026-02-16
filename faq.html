@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>常見問題 AIM AT BUSINESS</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts: Noto Sans TC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Top Utility Bar -->
+    <div class="top-utility-bar d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>我們致力為香港中小企提供全面會計、稅務及審計服務，助力您的企業穩步增長。</div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-6">
+                    <a href="index.html"><img src="./img/aim-logo.png" alt="AIM logo"></a>
+                    <!-- <h3 class="fw-bold m-0" style="color: var(--primary-navy)">AIM <span style="color: var(--action-blue)">AT BUSINESS</span></h3> -->
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex justify-content-center">
+                    <div class="contact-info-top d-flex gap-5">
+                        <div><i class="fas fa-phone-alt text-primary me-3"></i>+852 9088 3425</div>
+                        <div><i class="fas fa-envelope text-primary me-3"></i>ben.wong@aimaccounting.services</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 text-end">
+                    <a href="#" class="lang-toggle me-3">中文</a>
+                    <a href="#" class="lang-toggle me-3">Eng</a>
+                    <!-- <button class="cta-button btn btn-primary rounded-pill px-4"><a href="#">免費諮詢</a><i class="fas fa-arrow-right ms-1"></i></button> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="container navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto" style="padding: 8px;">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">關於我們</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service_a.html">服務範圍</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">常見問題</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">聯絡我們</a></li>
+                </ul>
+                <button class="nav-btn rounded-pill px-4 py-2 me-4" ><a href="contact.html">免費諮詢</a><i class="fas fa-arrow-right ms-1"></i></button>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- FAQs Section Banner -->
+    <section class="faq-banner-section position-relative">
+        <div class="container mt-5">
+            <div class="section-breadcrumb-content text-center">
+                <h2 class="fw-bold mb-4">常見問題</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQs Accordion -->
+    <section class="pt-5 bg-light pb-5">
+        <div class="container">
+            <!-- Content -->
+            <div class="text-center mb-5">
+                <!-- <p class="mb-3 fw-bold" style="color: var(--action-blue);">有疑問? 這裡找到答案</p> -->
+                <h2 class="fw-bold mb-4">透明資訊，讓您更放心</h2>
+                <p class="mb-4">
+                    無論係中小企老闆定初創團隊，您可能會對服務範圍、收費模式、合規要求有疑問。<br>我哋將最常見嘅問題集中解答，讓您清楚了解合作細節，放心交託財務管理。</p>
+            </div>
+            <!-- Accordion start -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion accordion-flush overflow-hidden" id="faqAccordion">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- #1 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button py-4" type="button" aria-expanded="true"
+                                            data-bs-toggle="collapse" data-bs-target="#f1">
+                                            我哋提供咩類型嘅會計服務？
+                                        </button>
+                                    </h2>
+                                    <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            AIM At Business 提供全面的會計及財務顧問服務，包括日常帳目整理、薪酬及 MPF
+                                            處理、稅務申報、審計配合、財務分析及策略顧問，並針對工程公司、餐飲公司及一般中小企提供專屬方案。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #2 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f2">
+                                            會計服務同一般簿記有咩分別？
+                                        </button>
+                                    </h2>
+                                    <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            一般簿記只係記錄交易；我們提供更全面嘅分析，包括盈利能力、現金流預測、稅務規劃同策略建議，幫助企業提升競爭力。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #3 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f3">
+                                            可唔可以只用 Payroll 或稅務服務？
+                                        </button>
+                                    </h2>
+                                    <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            可以。我們提供獨立加購服務，例如薪酬處理、MPF 管理、單次稅務申報或財務健康檢查，客戶可按需要選擇。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #4 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f4">
+                                            我哋會唔會幫手做審計？
+                                        </button>
+                                    </h2>
+                                    <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            會。我們提供審計配合服務，包括審計前帳務整理、文件準備及審計顧問，確保流程順利。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #5 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f5">
+                                            如果公司有多間分店或跨境業務，仲適合用你哋服務嗎？
+                                        </button>
+                                    </h2>
+                                    <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            適合。我們有多店財務管理、跨境稅務顧問及合併報表支援，能夠應付不同規模及複雜度的公司。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #6 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f6">
+                                            香港公司每年需要報咩稅？ 
+                                        </button>
+                                    </h2>
+                                    <div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            所有在香港營運的公司（包括有限公司及無限公司）都必須每年申報利得稅，並按規定提交僱主報稅表及員工薪酬資料。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #7 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f7">
+                                            有限公司同無限公司報稅有咩分別？
+                                        </button>
+                                    </h2>
+                                    <div id="f7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            有限公司需提交 BIR51 報稅表並附上經審計財務報表；無限公司則提交 BIR52 報稅表，財務報表可不經審計，但必須有完整會計記錄。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #8 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f8">
+                                            僱主報稅表何時要交？
+                                        </button>
+                                    </h2>
+                                    <div id="f8" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            每年 4 月，僱主需提交 BIR56A 報稅表，並向員工發出 IR56B，申報薪資、獎金及福利。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #9 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f9">
+                                            公司持有物業需要交物業稅嗎？
+                                        </button>
+                                    </h2>
+                                    <div id="f9" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            需要。如公司有租金收入，需按 15% 稅率繳納物業稅，但可扣除必要開支如維修費、管理費。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #10 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f10">
+                                            公司可以扣減咩開支？ 
+                                        </button>
+                                    </h2>
+                                    <div id="f10" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            可扣減員工薪資、花紅、佣金、MPF 供款、醫療保險、辦公室租金、水電煤、保險費、研發及技術開支等。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #11 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f11">
+                                            新客戶有冇優惠？ 
+                                        </button>
+                                    </h2>
+                                    <div id="f11" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            有。簽約年度套餐送額外月份、或免費盈利分析報告等優惠，視乎方案而定。
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- #12 -->
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f12">
+                                            點樣開始？ 
+                                        </button>
+                                    </h2>
+                                    <div id="f12" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            只需聯絡我們，提供基本公司資料（規模、交易量、員工數量），我們會安排免費需求評估，並提供合適的報價方案。
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5 bg-light pb-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 mb-5">
+                    <p class="mb-3 fw-bold" style="color: var(--action-blue);">為何選擇我們</p>
+                    <h2 class="fw-bold mb-4">您值得信賴的成長夥伴</h2>
+                    <p class="mb-5">
+                        選擇合作伙伴不單止係一個決定，更係企業未來嘅關鍵。我哋憑藉專業會計、稅務及顧問服務，結合本地市場洞察，為香港中小企提供可靠、透明同具策略性的支援，助您專注業務發展，邁向長遠成功。我哋亦提供靈活方案，滿足不同規模同需求嘅企業，無論係初創定成熟公司，都能找到適合嘅服務配套。
+                    </p>
+                    <button class="cta-button btn btn-primary btn-lg rounded-pill px-5 py-2 mb-5"><a href="service_a.html">選擇適合嘅財務方案</a><i
+                        class="fas fa-arrow-right ms-1"></i></button>
+
+                </div>
+                <!-- circle chart -->
+                <div class="col-lg-4">
+                    <div class="row g-4 text-center">
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>3600+</h3>
+                                <small class="fw-bold">顧客滿意度</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>580+</h3>
+                                <small class="fw-bold">完成個案</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>885</h3>
+                                <small class="fw-bold">企業策略方案</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>90+</h3>
+                                <small class="fw-bold">支援服務</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 p-5 bg-white">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">聯絡我們</h2>
+                        <h2 class="fw-bold">專業團隊即時為您服務</h2>
+                    </div>
+                    <form>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control bg-light border-1" placeholder="*名稱">
+                            </div>
+                            <div class="col-md-6"><input type="text" class="form-control bg-light border-1"
+                                    placeholder="*公司名稱"></div>
+                            <div class="col-md-6"><input type="tel" class="form-control bg-light border-1"
+                                    placeholder="*電話"></div>
+                            <div class="col-md-6"><input type="email" class="form-control bg-light border-1"
+                                    placeholder="*電郵地址"></div>
+                            <div class="col-12"><input type="text" class="form-control bg-light border-1"
+                                    placeholder="查詢主題"></div>
+                            <div class="col-12"><textarea class="form-control bg-light border-1" rows="6"
+                                    placeholder="查詢內容"></textarea></div>
+                        </div>
+                        <div class="col-12 text-center pt-5">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">立即提交查詢</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-top">
+        <div class="container">
+            <div class="back-to-top" id="scrollTop">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a href="index.html"><img src="./img/aim-logo.png" alt="AIM Logo" class="mb-4"></a>
+                    <h2 class="fw-bold mb-4">您的專業財務伙伴，<br>隨時與我們交流。</h2>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3 border-start border-primary border-4 ps-3">地址</h5>
+                    <p class="fw-bold">AIM at Business Company Limited</p>
+                    <p class="mt-3">H05, 9/F, Marvel Industrial Building Block B,<br>
+                        17-23 Kwai Fung Crescent, Kwai Fong, Kowloon</p>
+                    <p class="mt-3">辦工時間：<br>星期一至星期五 : 9:00am - 5:00pm</p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3 border-start border-primary border-4 ps-3">聯絡</h5>
+                    <p class="mb-2"><i class="fas fa-phone-alt me-2 text-primary"></i>(852) 9088-3425</p>
+                    <p class="mb-4"><i class="fas fa-envelope me-2 text-primary"></i>ben.wong@aimaccounting.services</p>
+                    <div class="social-icons-footer mt-4">
+                        <a href="#" class="me-3 text-black"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="me-3 text-black"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-black"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="container text-center">
+            <div class="mb-4">
+                <span class="mx-2"><a href="index.html">首 頁</a></span> | 
+                <span class="mx-2"><a href="about.html">關於我們</a></span> | 
+                <span class="mx-2"><a href="service_a.html">服務範圍</a></span> | 
+                <span class="mx-2"><a href="faq.html">常見問題</a></span> | 
+                <span class="mx-2"><a href="contact.html">聯絡我們</a></span>
+            </div>
+            <p class="copyright mb-0"><small>Copyright © AIM at Business Company Limited. All Rights Reserved</small></p>
+        </div>
+    </div>
+
+    <!-- Bootstrap & Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Service Arc Logic
+        const icons = document.querySelectorAll('.arc-icon');
+        const serviceTitle = document.getElementById('serviceTitle');
+        const serviceDesc = document.getElementById('serviceDesc');
+
+        function setupArc() {
+            if (window.innerWidth > 991) {
+                const radius = 200; // Radius of arc
+                const centerX = document.getElementById('arcWrapper').offsetWidth / 2;
+                const centerY = 250; // Pivot point
+
+                icons.forEach((icon, index) => {
+                    // Position icons in a semi-circle from 180 to 360 degrees
+                    const angle = (index * (180 / (icons.length - 1))) + 180;
+                    const radians = angle * (Math.PI / 180);
+
+                    const x = centerX + radius * Math.cos(radians) - 40;
+                    const y = centerY + radius * Math.sin(radians) - 40;
+
+                    icon.style.left = `${x}px`;
+                    icon.style.top = `${y}px`;
+                });
+            } else {
+                // Reset positions for grid view on mobile
+                icons.forEach(icon => {
+                    icon.style.left = 'auto';
+                    icon.style.top = 'auto';
+                });
+            }
+        }
+
+        icons.forEach(icon => {
+            icon.addEventListener('click', () => {
+                // Update active state
+                icons.forEach(i => i.classList.remove('active'));
+                icon.classList.add('active');
+
+                // Update content
+                serviceTitle.textContent = icon.dataset.title;
+                serviceDesc.textContent = icon.dataset.desc;
+
+                // Add fade effect
+                serviceTitle.parentElement.style.opacity = 0;
+                setTimeout(() => {
+                    serviceTitle.parentElement.style.opacity = 1;
+                    serviceTitle.parentElement.style.transition = 'opacity 0.3s';
+                }, 50);
+            });
+        });
+
+        // Initialize arc and handle resize
+        window.addEventListener('load', setupArc);
+        window.addEventListener('resize', setupArc);
+
+        // Scroll to Top
+        document.getElementById('scrollTop').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>

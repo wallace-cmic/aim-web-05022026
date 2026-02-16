@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIM AT BUSINESS | 智文商業顧問有限公司</title>
+
+    <!-- Bootstrap 5.3 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts: Noto Sans TC -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Top Utility Bar -->
+    <div class="top-utility-bar d-none d-lg-block">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div>我們致力為香港中小企提供全面會計、稅務及審計服務，助力您的企業穩步增長。</div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-6">
+                    <a href="index.html"><img src="./img/aim-logo.png" alt="AIM logo"></a>
+                    <!-- <h3 class="fw-bold m-0" style="color: var(--primary-navy)">AIM <span style="color: var(--action-blue)">AT BUSINESS</span></h3> -->
+                </div>
+                <div class="col-lg-6 d-none d-lg-flex justify-content-center">
+                    <div class="contact-info-top d-flex gap-5">
+                        <div><i class="fas fa-phone-alt text-primary me-3"></i>+852 9088 3425</div>
+                        <div><i class="fas fa-envelope text-primary me-3"></i>ben.wong@aimaccounting.services</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 text-end">
+                    <a href="#" class="lang-toggle me-3">中文</a>
+                    <a href="#" class="lang-toggle me-3">Eng</a>
+                    <!-- <button class="cta-button btn btn-primary rounded-pill px-4"><a href="#">免費諮詢</a><i class="fas fa-arrow-right ms-1"></i></button> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="container navbar navbar-expand-lg navbar-dark navbar-custom sticky-top">
+        <div class="container">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mx-auto" style="padding: 8px;">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">首頁</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">關於我們</a></li>
+                    <li class="nav-item"><a class="nav-link" href="service_a.html">服務範圍</a></li>
+                    <li class="nav-item"><a class="nav-link" href="faq.html">常見問題</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">聯絡我們</a></li>
+                </ul>
+                <button class="nav-btn rounded-pill mx-4 px-4 py-2 me-4" ><a href="contact.html">免費諮詢</a><i class="fas fa-arrow-right ms-1"></i></button>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <span class="badge-insight">財務洞察推動企業成長</span>
+                    <h1 class="display-3 fw-bold mb-4">智慧財務<br>助您領先一步</h1>
+                    <p class="lead mb-5">專業會計與稅務規劃，簡化您的複雜財務流程。<br>全方位支援您的業務，讓您專注於核心發展。</p>
+                    <button class="cta-button btn btn-primary btn-lg rounded-pill px-5 py-3"><a href="contact.html">免費諮詢方案</a><i
+                            class="fas fa-arrow-right ms-1"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us / Features -->
+    <section class="pt-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6">
+                    <div class="container mb-4">
+                        <p class="fw-bold mb-3" style="color: var(--action-blue);">關於我們</p>
+                        <h2 class="fw-bold mb-4">專業會計，簡化您的複雜。</h2>
+                        <p class="text-muted mb-3">喺瞬息萬變嘅市場環境中，我哋以專業會計知識同數字化工具，
+                            幫助客戶簡化繁瑣流程提升效率，並確保每一個財務決策都穩健可靠。</p>
+                    </div>
+
+                    <!-- Scoll section -->
+                    <div class="feature-scroll-container me-4 mb-5">
+                        <div class="feature-card">
+                            <i class="fas fa-shield-alt fa-2x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">專業可靠</h4>
+                            <p>多年經驗，嚴謹對待每一份財務報表，確保合規穩定。</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-users fa-2x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">以客為本</h4>
+                            <p>深耕香港，了解中小企痛點，提供個性化諮詢服務。</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-chart-line fa-2x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">提升價值</h4>
+                            <p>不只是記錄數據，更是為您的經營決策提供有力依據。</p>
+                        </div>
+                        <div class="feature-card">
+                            <i class="fas fa-clock fa-2x mb-3 text-primary"></i>
+                            <h4 class="fw-bold">高效響應</h4>
+                            <p>全天候專業支援，及時解決您的各種稅務與會計疑問。</p>
+                        </div>
+                    </div>
+
+                    <button class="cta-button btn btn-primary btn-lg rounded-pill px-5 py-2 mb-5 mt-5"><a href="a">了解更多</a><i
+                        class="fas fa-arrow-right ms-1"></i></button>
+
+                </div>
+                <div class="col-lg-6 text-end">
+                    <img src="./img/about-us.png" alt="Accounting" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- <div class="feature-scroll-container">
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt fa-2x mb-3 text-primary"></i>
+                    <h4>專業可靠</h4>
+                    <p class="text-muted">多年經驗，嚴謹對待每一份財務報表，確保合規穩定。</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-users fa-2x mb-3 text-primary"></i>
+                    <h4>以客為本</h4>
+                    <p class="text-muted">深耕香港，了解中小企痛點，提供個性化諮詢服務。</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-chart-line fa-2x mb-3 text-primary"></i>
+                    <h4>提升價值</h4>
+                    <p class="text-muted">不只是記錄數據，更是為您的經營決策提供有力依據。</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-clock fa-2x mb-3 text-primary"></i>
+                    <h4>高效響應</h4>
+                    <p class="text-muted">全天候專業支援，及時解決您的各種稅務與會計疑問。</p>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Service Arc (Interactive) -->
+    <section class="service-arc-section position-relative py-5 overflow-hidden">
+        <!-- Background image and overlay -->
+        <div class="arc-bg"></div>
+        <div class="container position-relative z-2">
+
+        <!-- Content -->
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="mb-3 fw-bold" style="color: var(--action-blue);">服務範圍</p>
+                <h2 class="fw-bold mb-4">全面財務方案，<br>助您掌握未來，提升價值
+                </h2>
+                <p>我哋提供一站式會計及稅務服務，結合專業知識同現代化科技，為中小企、初創及個人客戶提供精準、<br>可靠同高效嘅支援。無論係日常帳目管理定長遠策略規劃，我哋都能為您度身定制方案，確保企業穩健成長。</p>
+            </div>
+            <!-- <div class="mx-auto" style="width: 50px; height: 3px; background: var(--action-blue)"></div> -->
+        </div>
+
+        <div class="service-arc-container">
+            <div class="arc-wrapper" id="arcWrapper">
+                <!-- Arc Icons will be positioned by JS for Desktop, Grid for Mobile -->
+                <div class="arc-icon active" data-service="0" data-title="稅務規劃" data-desc="專業稅務策略，合法減輕負擔，優化稅務支出。">
+                    <i class="fas fa-file-invoice-dollar fa-lg"></i>
+                </div>
+                <div class="arc-icon" data-service="1" data-title="審計服務" data-desc="提供獨立客觀的審計報告，增強財務透明度與信譽。">
+                    <i class="fas fa-search-dollar fa-lg"></i>
+                </div>
+                <div class="arc-icon" data-service="2" data-title="公司秘書" data-desc="協助處理各類法定文件，確保公司符合相關法律要求。">
+                    <i class="fas fa-briefcase fa-lg"></i>
+                </div>
+                <div class="arc-icon" data-service="3" data-title="商業諮詢" data-desc="全方位的商業策略方案，助您應對市場挑戰與機遇。">
+                    <i class="fas fa-handshake fa-lg"></i>
+                </div>
+                <div class="arc-icon" data-service="4" data-title="薪資管理" data-desc="簡化發薪流程，準確計算強積金及報稅事宜。">
+                    <i class="fas fa-users-cog fa-lg"></i>
+                </div>
+                <div class="arc-icon" data-service="5" data-title="雲端會計" data-desc="利用最新科技，隨時隨地實時掌握您的業務財務狀況。">
+                    <i class="fas fa-cloud-upload-alt fa-lg"></i>
+                </div>
+
+                <!-- Center Text -->
+                <div class="arc-center-content">
+                    <h3 id="serviceTitle" class="fw-bold text-primary">稅務規劃</h3>
+                    <p id="serviceDesc" class="text-muted">專業稅務策略，合法減輕負擔，優化稅務支出。</p>
+                    <button class="cta-button btn btn-primary btn rounded-pill px-3 py-2 mt-2"><a href="service_a.html">了解更多</a></button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5">
+                    <p class="mb-3 fw-bold" style="color: var(--action-blue);">為何選擇我們</p>
+                    <h2 class="fw-bold mb-4">您值得信賴的成長夥伴</h2>
+                    <p class="mb-5">
+                        選擇合作伙伴不單止係一個決定，更係企業未來嘅關鍵。我哋憑藉專業會計、稅務及顧問服務，結合本地市場洞察，為香港中小企提供可靠、透明同具策略性的支援，助您專注業務發展，邁向長遠成功。</p>
+                </div>
+
+                <!-- circle chart -->
+                <div class="col-lg-6">
+                    <div class="row g-4 text-center">
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>3600+</h3>
+                                <small class="fw-bold">顧客滿意度</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>580+</h3>
+                                <small class="fw-bold">完成個案</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>885</h3>
+                                <small class="fw-bold">企業策略方案</small>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-card">
+                                <h3>90+</h3>
+                                <small class="fw-bold">支援服務</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dark Blue Banner -->
+    <section class="dark-banner-section d-flex align-items-center py-4" style="background-image: url('./img/dark-banner-2.png');">
+        <div class="container d-flex flex-column align-items-start justify-content-center"></div>
+        <div class="container">
+            <h2 class="text-atart fw-bold dark-banner-text m-0">
+                我們支持香港中小企，<br>助你會計、稅務、審計全方位發展，<br>幫助老闆專注業務。
+            </h2>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="mb-3 fw-bold" style="color: var(--action-blue);">有疑問? 這裡找到答案</p>
+                <h2 class="fw-bold mb-4">透明資訊，讓您更放心</h2>
+                <p class="mb-4">
+                    無論係中小企老闆定初創團隊，您可能會對服務範圍、收費模式、合規要求有疑問。<br>我哋將最常見嘅問題集中解答，讓您清楚了解合作細節，放心交託財務管理。</p>
+            </div>
+
+            <!-- accordion start -->
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="accordion accordion-flush overflow-hidden" id="faqAccordion">
+                        <div class="row">
+                            <!-- column 1 -->
+                            <div class="col-md-6">
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f1">
+                                            香港公司何時開始報稅？
+                                        </button>
+                                    </h2>
+                                    <div id="f1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            一般在公司成立後約 18 個月，稅務局會發出首份利得稅報稅表。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f2">
+                                            會計紀錄需要保存多久？
+                                        </button>
+                                    </h2>
+                                    <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            根據香港法律，所有業務紀錄必須保存至少 7 年。
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- column 2 -->
+                            <div class="col-md-6">
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f3">
+                                            為什麼需要專業審計？
+                                        </button>
+                                    </h2>
+                                    <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            除了法定要求，審計能提升公司公信力，有利於融資及合作伙伴信任。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item border-bottom">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed py-4" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#f4">
+                                            AIM 提供什麼樣的後勤支援？
+                                        </button>
+                                    </h2>
+                                    <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                        <div class="accordion-body">
+                                            我們提供秘書、薪酬、強積金申報等全方位後勤支援。
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container pb-3">
+                <div class="text-center mt-5">
+                    <button class="cta-button btn btn-primary btn-lg rounded-pill px-5 py-2"><a href="faq.html">了解更多</a><i
+                        class="fas fa-arrow-right ms-1"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-5" style="background-color: var(--light-grey-bg)">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="mb-3 fw-bold" style="color: var(--action-blue);">客戶回饋</p>
+                <h2 class="fw-bold">以客戶滿意為首要目標</h2>
+                <p class="text-muted">
+                    我們深信，最有力的證明來自客戶的親身體驗與回饋。多年來，我們服務眾多香港中小企，從初創到成長型企業，透過專業會計、稅務及顧問方案，<br>協助他們克服挑戰、提升效率，邁向穩健未來。以下是部分客戶的真實分享。
+                </p>
+            </div>
+            <div class="row g-4">
+                <!-- client 1 -->
+                <div class="col-lg-4">
+                    <div class="card border-0 h-100 p-4 shadow-sm rounded-4">
+                        <div class="text-warning mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="fst-italic">「我哋係餐飲業，平時已經好忙，根本冇時間處理複雜嘅稅務。佢哋嘅專業支援令我哋可以專心做生意，唔需要再擔心合規問題，真係好放心。」</p>
+                        <div class="d-flex align-items-center mt-auto pt-3">
+                            <div class="bg-primary rounded-circle me-3" style="width: 40px; height: 40px;">
+                                <img src="./img/client1.png" alt="client1" class="testimonial-img mb-3">
+                            </div>
+                            <div>
+                                <div class="fw-bold">陳先生</div>
+                                <small class="text-muted">餐飲集團負責人</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- client 2 -->
+                <div class="col-lg-4">
+                    <div class="card border-0 h-100 p-4 shadow-sm rounded-4">
+                        <div class="text-warning mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="fst-italic">「作為初創企業，我哋最擔心係財務規劃唔夠長遠。佢哋團隊唔單止幫我哋做帳，仲提供咗好多策略性建議，令我哋可以更有信心去拓展市場。」</p>
+                        <div class="d-flex align-items-center mt-auto pt-3">
+                            <div class="bg-primary rounded-circle me-3" style="width: 40px; height: 40px;">
+                                <img src="./img/client2.png" alt="client2" class="testimonial-img mb-3">
+                            </div>
+                            <div>
+                                <div class="fw-bold">李小姐</div>
+                                <small class="text-muted">初創教育平台創辦人</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- client 3 -->
+                <div class="col-lg-4">
+                    <div class="card border-0 h-100 p-4 shadow-sm rounded-4">
+                        <div class="text-warning mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="fst-italic">「以前我哋公司帳目混亂，報稅時經常手忙腳亂。自從交畀呢間會計公司處理，流程清晰好多，仲幫我哋搵到合法節稅方案，真係慳咗唔少。」</p>
+                        <div class="d-flex align-items-center mt-auto pt-3">
+                            <div class="bg-primary rounded-circle me-3" style="width: 40px; height: 40px;">
+                                <img src="./img/client3.png" alt="client3" class="testimonial-img mb-3">
+                            </div>
+                            <div>
+                                <div class="fw-bold">王先生</div>
+                                <small class="text-muted">物流貿易公司董事</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 p-5 bg-white">
+                    <div class="text-center mb-5">
+                        <h2 class="fw-bold">聯絡我們</h2>
+                        <h2 class="fw-bold">專業團隊即時為您服務</h2>
+                    </div>
+                    <form>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <input type="text"
+                                    class="form-control bg-light border-1" placeholder="*名稱"></div>
+                            <div class="col-md-6"><input type="text"
+                                    class="form-control bg-light border-1" placeholder="*公司名稱"></div>
+                            <div class="col-md-6"><input type="tel"
+                                    class="form-control bg-light border-1" placeholder="*電話"></div>
+                            <div class="col-md-6"><input type="email"
+                                    class="form-control bg-light border-1" placeholder="*電郵地址"></div>
+                            <div class="col-12"><input type="text"
+                                    class="form-control bg-light border-1" placeholder="查詢主題"></div>
+                            <div class="col-12"><textarea class="form-control bg-light border-1"
+                                    rows="6" placeholder="查詢內容"></textarea></div>
+                        </div>
+                        <div class="col-12 text-center pt-5">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5">立即提交查詢</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-top">
+        <div class="container">
+            <div class="back-to-top" id="scrollTop">
+                <i class="fas fa-chevron-up"></i>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <a href="index.html"><img src="./img/aim-logo.png" alt="AIM Logo" class="mb-4"></a>
+                    <h2 class="fw-bold mb-4">您的專業財務伙伴，<br>隨時與我們交流。</h2>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3 border-start border-primary border-4 ps-3">地址</h5>
+                    <p class="fw-bold">AIM at Business Company Limited</p>
+                    <p class="mt-3">H05, 9/F, Marvel Industrial Building Block B,<br>
+                        17-23 Kwai Fung Crescent, Kwai Fong, Kowloon</p>
+                    <p class="mt-3">辦工時間：<br>星期一至星期五 : 9:00am - 5:00pm</p>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h5 class="fw-bold mb-3 border-start border-primary border-4 ps-3">聯絡</h5>
+                    <p class="mb-2"><i class="fas fa-phone-alt me-2 text-primary"></i>(852) 9088-3425</p>
+                    <p class="mb-4"><i class="fas fa-envelope me-2 text-primary"></i>ben.wong@aimaccounting.services</p>
+                    <div class="social-icons-footer mt-4">
+                        <a href="#" class="me-3 text-black"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="me-3 text-black"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-black"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        <div class="container text-center">
+            <div class="mb-4">
+                <span class="mx-2"><a href="index.html">首 頁</a></span> | 
+                <span class="mx-2"><a href="about.html">關於我們</a></span> | 
+                <span class="mx-2"><a href="service_a.html">服務範圍</a></span> | 
+                <span class="mx-2"><a href="faq.html">常見問題</a></span> | 
+                <span class="mx-2"><a href="contact.html">聯絡我們</a></span>
+            </div>
+            <p class="copyright mb-0"><small>Copyright © AIM at Business Company Limited. All Rights Reserved</small></p>
+        </div>
+    </div>
+
+    <!-- Bootstrap & Custom JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Service Arc Logic
+        const icons = document.querySelectorAll('.arc-icon');
+        const serviceTitle = document.getElementById('serviceTitle');
+        const serviceDesc = document.getElementById('serviceDesc');
+
+        function setupArc() {
+            if (window.innerWidth > 991) {
+                const radius = 200; // Radius of arc
+                const centerX = document.getElementById('arcWrapper').offsetWidth / 2;
+                const centerY = 250; // Pivot point
+
+                icons.forEach((icon, index) => {
+                    // Position icons in a semi-circle from 180 to 360 degrees
+                    const angle = (index * (180 / (icons.length - 1))) + 180;
+                    const radians = angle * (Math.PI / 180);
+
+                    const x = centerX + radius * Math.cos(radians) - 40;
+                    const y = centerY + radius * Math.sin(radians) - 40;
+
+                    icon.style.left = `${x}px`;
+                    icon.style.top = `${y}px`;
+                });
+            } else {
+                // Reset positions for grid view on mobile
+                icons.forEach(icon => {
+                    icon.style.left = 'auto';
+                    icon.style.top = 'auto';
+                });
+            }
+        }
+
+        icons.forEach(icon => {
+            icon.addEventListener('click', () => {
+                // Update active state
+                icons.forEach(i => i.classList.remove('active'));
+                icon.classList.add('active');
+
+                // Update content
+                serviceTitle.textContent = icon.dataset.title;
+                serviceDesc.textContent = icon.dataset.desc;
+
+                // Add fade effect
+                serviceTitle.parentElement.style.opacity = 0;
+                setTimeout(() => {
+                    serviceTitle.parentElement.style.opacity = 1;
+                    serviceTitle.parentElement.style.transition = 'opacity 0.3s';
+                }, 50);
+            });
+        });
+
+        // Initialize arc and handle resize
+        window.addEventListener('load', setupArc);
+        window.addEventListener('resize', setupArc);
+
+        // Scroll to Top
+        document.getElementById('scrollTop').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
